@@ -32,7 +32,7 @@ const clear = () => {
   formEl.reset();
 };
 
-form.addEventListener('submit', event => {
+formEl.addEventListener('submit', event => {
   event.preventDefault();
   console.log(formState);
   clear();
